@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch", "CleanArch\Clea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClearArch.Domain", "ClearArch.Domain\ClearArch.Domain.csproj", "{AF116ECD-6A90-4A33-ACD5-2168C431D44B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{9090C204-158B-4A6E-9E78-F345A8D19100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{9090C204-158B-4A6E-9E78-F345A8D19100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{FB837B54-729D-4705-9595-220FAC7A141F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{9090C204-158B-4A6E-9E78-F345A8D19100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9090C204-158B-4A6E-9E78-F345A8D19100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9090C204-158B-4A6E-9E78-F345A8D19100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB837B54-729D-4705-9595-220FAC7A141F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB837B54-729D-4705-9595-220FAC7A141F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB837B54-729D-4705-9595-220FAC7A141F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB837B54-729D-4705-9595-220FAC7A141F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{32E4C777-4057-48F0-9527-3DB12C388CBF} = {DAF161B2-0D0A-4A43-89B5-BAD77699F035}
 		{AF116ECD-6A90-4A33-ACD5-2168C431D44B} = {A5E4D01B-E69C-4586-A7CE-FAF0B98EB504}
 		{9090C204-158B-4A6E-9E78-F345A8D19100} = {6656F7FF-6638-4470-88B9-3EB9EB95F4B9}
+		{FB837B54-729D-4705-9595-220FAC7A141F} = {2E729F7F-1EB3-46B5-B22A-66A570A9CCED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3E2D414-582C-4D07-B638-3C55DDE1EFA1}
