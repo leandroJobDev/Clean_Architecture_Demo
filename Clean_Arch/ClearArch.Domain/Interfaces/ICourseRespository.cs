@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-//ing ClearArch.Domain.Models;
+//using ClearArch.Domain.Models;
 
 namespace ClearArch.Domain.Interfaces
 {
