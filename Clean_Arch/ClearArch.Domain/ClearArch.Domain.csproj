@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Arch.Domain.Core\Clean.Arch.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>

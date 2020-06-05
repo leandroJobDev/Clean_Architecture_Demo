@@ -8,5 +8,6 @@ namespace ClearArch.Domain.Interfaces
     public interface ICourseRespository
     {   
         IEnumerable<Course> GetCourses();
+        void Add(Course course);
     }
 }
